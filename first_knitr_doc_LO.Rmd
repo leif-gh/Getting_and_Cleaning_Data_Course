@@ -1,0 +1,17 @@
+---
+title: "test_Rmd_LO"
+author: "Leif Olausson"
+date: "Monday, February 09, 2015"
+output: html_document
+---
+
+This is an R Markdown document and also a First knitr attempt. 
+
+A first code chunk
+```{r, echo=TRUE}
+set.seed(1)
+x <- rnorm(100)
+mean(x)
+```
+
+
