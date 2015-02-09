@@ -1,0 +1,16 @@
+---
+title: "Third_test_Rmd_LO"
+author: "Leif Olausson"
+date: "Monday, February 09, 2015"
+output: html_document
+---
+ 
+R code chunk:
+
+```{r, echo=TRUE}
+set.seed(3)
+x <- rnorm(500)
+mean(x)
+```
+
+
